@@ -1,0 +1,9 @@
+data/
+results/
+.env
+kaggle.json
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+Thumbs.db
