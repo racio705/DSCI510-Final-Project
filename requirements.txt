@@ -1,0 +1,9 @@
+requests
+pandas
+geopandas
+numpy
+shapely
+scikit-learn
+matplotlib
+folium
+python-dotenv
