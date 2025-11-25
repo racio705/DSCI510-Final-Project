@@ -3,7 +3,12 @@ pandas
 geopandas
 numpy
 shapely
+fiona
+pyproj
 scikit-learn
 matplotlib
+seaborn
 folium
 python-dotenv
+libpysal
+esda
