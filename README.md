@@ -2,7 +2,18 @@
 
 A reproducible geospatial analysis of advertised nightly Airbnb prices, subway accessibility, and neighborhood context in New York City. This extends the original DSCI 510 coursework with source validation, semantic sample selection, model baselines, geographic cross-validation, and uncertainty estimates.
 
-## Results
+## Market findings
+
+- **84.2%** of the primary sample advertises a minimum stay of at least 30 nights; segment stay requirements before using a price benchmark.
+- With **one bedroom, capacity two, minimum exactly 30 nights and subway ≤500 m**, median asks are **$220 in Manhattan (n=1,193)** and **$159 in Brooklyn (n=561)**. The 27.7% descriptive gap shrinks to 15.1% after excluding each borough's largest host. Amenities and exact quality remain unmatched.
+- **77.9%** of listings with a minimum of exactly 31 nights belong to one host account. Account composition explains why broad ≥30-night categories can give different benchmarks; it does not identify a causal effect of stay rules.
+- Grouped held-out permutation shows much greater model reliance on capacity, product type and location context than subway features. Supplemental **host-group CV** achieves **$90.49 MAE versus $122.99** for the baseline (**26.4% lower**).
+
+Read [market findings and methods](docs/MARKET_FINDINGS.md) or [usable conclusions in Chinese](docs/USABLE_FINDINGS_ZH.md). These are exploratory historical asking-price comparisons.
+
+![Comparable borough price categories](figures/comparable_borough_prices.png)
+
+## Model validation
 
 The October 2025 source contains **36,111 listings**. Of these, 21,326 have valid positive prices and match NYC tracts. The primary sample contains **20,308 non-hotel listings**, excluding 1,018 records identified as hotels, hostels, or resorts by room/property type. No price-tail trimming is applied. The median minimum stay is 30 nights, so this is not exclusively a short-stay market.
 
@@ -33,6 +44,8 @@ The first analysis run downloads the exact historical Inside Airbnb and Census f
 
 Subsequent reruns can use `python src/run_analysis.py --offline`. `--prepare-only` validates inputs and builds features without training. The compatibility command `python src/main.py` uses the same pipeline. `requirements-lock.txt` records the full environment; `requirements.txt` pins direct dependencies.
 
+To rerun only the supplementary findings after a completed analysis, use `python src/derive_findings.py` (or `--render-only` to reuse computations). The full pipeline includes this extension.
+
 The notebook is an executed review companion to the pipeline, rather than a second training implementation. Its generated HTML contains embedded figure outputs and can be read offline. Interactive map tiles and Leaflet assets require internet.
 
 ## Data and methods
@@ -55,7 +68,7 @@ tests/               geospatial, cleaning, isolation, and metric checks
 data/reference/      frozen MTA input; third-party source terms apply
 results/tables/      aggregate primary and full-catalog benchmarks
 results/             source manifest, data-quality report, metrics, map, notebook HTML
-figures/             four reproducible figures
+figures/             seven reproducible figures
 notebooks/           executed analytical companion
 docs/                sources, findings, methods, Chinese resume/interview guide
 archive/coursework/  preserved original source and notebook
@@ -65,6 +78,6 @@ Raw listing caches, derived listing-level data and predictions are ignored by Gi
 
 ## Interpretation and limitations
 
-Advertised prices are not booked rates, property sale values, revenue or occupancy. Missing prices exclude 14,783 source rows. ACS is lagged area context, and listing coordinates may be displaced by approximately 150 m. Adjacent spatial cells can touch and hosts can appear across folds; validation does not establish future-period or host-independent performance. Residual spatial autocorrelation remains. No causal or realized business-impact claims are made.
+Advertised prices are not booked rates, property sale values, revenue or occupancy. Missing prices exclude 14,783 source rows. ACS is lagged area context, and listing coordinates may be displaced by approximately 150 m. Adjacent spatial cells can touch and hosts can appear across spatial folds. A separate host-group evaluation holds out accounts, but neither design establishes combined spatial/host independence or future-period performance. Residual spatial autocorrelation remains. No causal or realized business-impact claims are made.
 
 See [data provenance and licenses](docs/DATA_SOURCES.md). Code is MIT licensed; third-party data retains its publisher's terms.

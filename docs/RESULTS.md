@@ -1,5 +1,7 @@
 # Executed findings
 
+For the new product/stay benchmarks, host-account composition analysis and host-group validation, see [Market findings](MARKET_FINDINGS.md).
+
 Results generated from the source hashes in `results/source_manifest.json`. Primary sample: October 2025 NYC listings excluding recorded hotel, hostel and resort products. All finite positive prices are retained. This is an observational portfolio study, not a deployment or causal evaluation.
 
 ## Sample and data quality
@@ -53,4 +55,4 @@ Corrected projected-distance and map-coordinate errors; converted Census sentine
 
 ## Next evidence needed
 
-A second comparable listing snapshot would support temporal testing. Entrance/walking-network data would improve the access proxy. Host-group or buffered spatial validation would test stronger independence. Booking transactions would be required to evaluate achieved rates, occupancy or revenue. These remain future work, not implemented achievements.
+A second comparable listing snapshot would support temporal testing. Entrance/walking-network data would improve the access proxy. Supplemental host-group validation is now reported in `MARKET_FINDINGS.md`; a combined host/spatial design or buffered validation would test stronger independence. Booking transactions would be required to evaluate achieved rates, occupancy or revenue. These remain future work, not implemented achievements.

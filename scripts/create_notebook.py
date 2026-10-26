@@ -156,6 +156,31 @@ The listing snapshot is from October 2025; ACS measures 2019–2023, and the MTA
 
 Rerun the repository's documented pipeline before executing this notebook if changing inputs, features, splits, or models. Keep the frozen manifest with each run. This notebook uses saved results and is a review companion, rather than an alternative model-training implementation. See [README](../README.md), [data provenance](../docs/DATA_SOURCES.md), and [Inside Airbnb's assumptions](https://insideairbnb.com/data-assumptions/)."""),
     ]
+    insertion = next(i for i, cell in enumerate(cells) if cell.cell_type == "markdown" and cell.source == "## Written interpretation")
+    cells[insertion:insertion] = [
+        markdown("""## Market findings from explicit accommodation segments
+
+The following exploratory extension separates advertised stay requirements, compares fixed product/access categories, and measures model reliance on feature groups. It uses the same historical sample, rather than an independent confirmation dataset. Minimum nights is a listing rule, not an observed booking duration. Product categories do not match amenities or exact neighborhood quality."""),
+        code("""findings = ROOT / 'docs' / 'MARKET_FINDINGS.md'
+display(Markdown(findings.read_text(encoding='utf-8')))
+"""),
+        code("""display(Image(filename=str(ROOT / 'figures' / 'comparable_borough_prices.png')))
+comparison = pd.read_csv(ROOT / 'results' / 'tables' / 'segment_borough_bootstrap.csv')
+comparison = comparison[comparison['eligible_n100'].eq(True)]
+display(comparison[['product_id', 'comparison_borough', 'n_reference', 'n_comparison',
+                    'pct_difference', 'ci95_lower_pct', 'ci95_upper_pct']].round(2))
+"""),
+        markdown("""The displayed intervals are exploratory, pointwise 95% percentile intervals from 1,000 census-tract bootstrap draws within each borough. Primary comparisons hold the advertised minimum at exactly 30 nights. They retain within-tract dependence but do not account for cross-tract dependence or adjust for multiple comparisons. They are not a causal estimate of changing a listing's borough."""),
+        code("""display(Image(filename=str(ROOT / 'figures' / 'price_information_groups.png')))
+importance = pd.read_csv(ROOT / 'results' / 'tables' / 'grouped_permutation_importance.csv')
+display(importance[['group', 'baseline_mae_usd', 'delta_mae_usd_median',
+                    'delta_log_rmse_median']].round(3))
+host_metrics = pd.read_csv(ROOT / 'results' / 'tables' / 'host_model_metrics.csv')
+display(host_metrics.round({'mae_usd': 2, 'rmse_usd': 2, 'median_ae_usd': 2, 'r2_log': 3}))
+display(Image(filename=str(ROOT / 'figures' / 'long_stay_access_patterns.png')))
+"""),
+        markdown("""Feature groups are shuffled jointly in held-out spatial folds of the full-with-transit candidate. Importance is conditional on the other correlated groups and can include unrealistic shuffled combinations. It measures predictive reliance, not how much an intervention would change prices. Shuffle repeat ranges are not confidence intervals. Distance-band medians are unadjusted descriptive summaries."""),
+    ]
     notebook = nbf.v4.new_notebook(cells=cells)
     notebook.metadata.update({
         "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},

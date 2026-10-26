@@ -62,6 +62,8 @@ def main():
     from nyc_airbnb.presentation import create_figures, create_map
     create_figures(root)
     create_map(root)
+    from nyc_airbnb.insights import run_insights
+    run_insights(root)
     print(f"Results saved to {results}")
 
 
