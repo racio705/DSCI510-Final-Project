@@ -1,0 +1,16 @@
+room_type,distance_band,n,median_price
+Entire home/apt,0–250 m,4350,250.0
+Entire home/apt,250–500 m,4595,207.0
+Entire home/apt,500 m–1 km,1953,200.0
+Entire home/apt,1–2 km,422,147.5
+Entire home/apt,>2 km,608,140.5
+Private room,0–250 m,2225,83.0
+Private room,250–500 m,3236,79.0
+Private room,500 m–1 km,1569,80.0
+Private room,1–2 km,502,81.0
+Private room,>2 km,669,88.0
+Shared room,0–250 m,46,40.0
+Shared room,250–500 m,95,42.0
+Shared room,500 m–1 km,21,71.0
+Shared room,1–2 km,8,164.5
+Shared room,>2 km,9,126.0

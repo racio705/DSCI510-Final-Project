@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "airbnb": {
+      "filename": "listings.csv.gz",
+      "url": "https://data.insideairbnb.com/united-states/ny/new-york-city/2025-10-01/data/listings.csv.gz",
+      "period": "2025-10-01 Inside Airbnb archive; last_scraped dates also reported",
+      "provenance": "User-supplied original Inside Airbnb detailed NYC extract",
+      "sha256": "a50efc7b11ef0a0786e38787ae2d4f47af1009943a1049503b676cc4b770fcbd",
+      "bytes": 17748368,
+      "registered_at_utc": "2026-10-26T05:12:47.893834+00:00",
+      "downloaded_by_pipeline": false
+    },
+    "subway": {
+      "filename": "subway.csv",
+      "url": "https://data.ny.gov/resource/39hk-dx4f.csv?$limit=5000",
+      "period": "Original user-supplied station extract; extract date unknown",
+      "provenance": "User-supplied original MTA Subway Stations CSV",
+      "sha256": "4f10d7730b4dfe1737cb54426adccb8396346eceec2be9a22a58c9e0ccfdbc57",
+      "bytes": 67853,
+      "registered_at_utc": "2026-10-26T05:12:47.895044+00:00",
+      "downloaded_by_pipeline": false
+    },
+    "income": {
+      "filename": "acs_income_2023.dat",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+      "period": "2019-2023 ACS 5-year estimates; tract median household income",
+      "provenance": "Census Bureau official table-based summary file B19013",
+      "sha256": "c9007017b7bb29ba758c77612ec9a4a0b897a4ed931d527754629866f580a110",
+      "bytes": 17884943,
+      "registered_at_utc": "2026-10-26T05:12:47.907568+00:00",
+      "downloaded_by_pipeline": false
+    },
+    "population": {
+      "filename": "acs_population_2023.dat",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01003.dat",
+      "period": "2019-2023 ACS 5-year estimates; tract population",
+      "provenance": "Census Bureau official table-based summary file B01003",
+      "sha256": "24ae3f523b4c54332ce0a71ba534569685a8a729056f975915d860d1eb943565",
+      "bytes": 18311997,
+      "registered_at_utc": "2026-10-26T05:12:47.920984+00:00",
+      "downloaded_by_pipeline": false
+    },
+    "tracts": {
+      "filename": "tl_2023_36_tract.zip",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2023/TRACT/tl_2023_36_tract.zip",
+      "period": "2023 TIGER/Line census tract boundaries, New York State",
+      "provenance": "Census Bureau official TIGER/Line shapefile",
+      "sha256": "010dfd8893c8a2a6482c7a0420b0113a8c0a0029137d0f904635014f39ffb918",
+      "bytes": 8854208,
+      "registered_at_utc": "2026-10-26T05:12:47.928506+00:00",
+      "downloaded_by_pipeline": false
+    }
+  }
+}
