@@ -1,0 +1,10 @@
+room_type,distance_band,n,median_price_usd
+Entire home/apt,Within 500 m,7901,213.0
+Entire home/apt,"500–1,000 m",1759,195.0
+Entire home/apt,"Over 1,000 m",905,138.0
+Private room,Within 500 m,4389,70.0
+Private room,"500–1,000 m",1232,69.0
+Private room,"Over 1,000 m",777,70.0
+Shared room,Within 500 m,116,38.5
+Shared room,"500–1,000 m",16,47.5
+Shared room,"Over 1,000 m",5,126.0

@@ -1,0 +1,95 @@
+{
+  "benchmark_type": "historical_advertised_nightly_price",
+  "currency": "USD",
+  "hypothetical": true,
+  "scenario_note": "Hypothetical input created for this local demonstration; not an observed listing, a current offer, or an actual booking.",
+  "neighborhood_was_supplied": false,
+  "optional_inputs_missing": [
+    "number_of_reviews",
+    "review_scores_rating",
+    "calculated_host_listings_count"
+  ],
+  "input_features": {
+    "latitude": 40.69,
+    "longitude": -73.95,
+    "accommodates": 2.0,
+    "bedrooms": 1.0,
+    "bathrooms": 1.0,
+    "minimum_nights": 30.0,
+    "beds": 1.0,
+    "number_of_reviews": null,
+    "review_scores_rating": null,
+    "calculated_host_listings_count": null,
+    "room_type": "Entire home/apt",
+    "property_type": "Entire rental unit",
+    "neighbourhood_cleansed": "Unknown"
+  },
+  "primary_model": "Host-balanced HGB without transit",
+  "point_quote_usd_per_night": 144.18,
+  "estimates": {
+    "Host-balanced HGB without transit": {
+      "point_usd_per_night": 144.18,
+      "nominal_prediction_interval_80pct": {
+        "lower_usd": 83.23,
+        "upper_usd": 249.24,
+        "nominal_level_pct": 80
+      }
+    },
+    "comparable_listing_median": {
+      "point_usd_per_night": 153.0,
+      "nominal_prediction_interval_80pct": {
+        "lower_usd": 75.5,
+        "upper_usd": 309.01,
+        "nominal_level_pct": 80
+      }
+    },
+    "comparable_host_median": {
+      "point_usd_per_night": 153.0,
+      "nominal_prediction_interval_80pct": {
+        "lower_usd": 78.54,
+        "upper_usd": 297.17,
+        "nominal_level_pct": 80
+      }
+    }
+  },
+  "comparable_fallback": {
+    "level": 4,
+    "matched_dimensions": [
+      "borough",
+      "room_type",
+      "capacity",
+      "bedrooms",
+      "minimum_stay"
+    ],
+    "training_listings": 793,
+    "training_hosts": 697
+  },
+  "location_context": {
+    "borough": "Brooklyn",
+    "census_tract": "36047025100",
+    "recorded_neighborhood": "Unknown",
+    "nearest_station": "Bedford-Nostrand Avs",
+    "straight_line_subway_distance_m": 300.5
+  },
+  "adoption_decision": "met_predeclared_offline_criteria",
+  "adoption_decision_note": "The locked primary model met researcher-chosen offline screening criteria. This is not automatic-pricing approval or demonstrated business impact.",
+  "observed_subgroup_validation": {
+    "status": "observed_holdout_subgroup",
+    "n": 86,
+    "mae_usd": 90.880969057846,
+    "median_ape_pct": 16.635015795657136,
+    "coverage_80_pct": 84.88372093023256,
+    "flags": [],
+    "note": "Descriptive subgroup diagnostics, not a conditional coverage guarantee or a new adoption gate."
+  },
+  "protocol_commit": "b75e5a69daf625312ca2a4c582d3ddbf36657447",
+  "training_snapshot": "2025-10-01",
+  "calibration_snapshot": "2026-06-14",
+  "holdout_snapshot": "2026-09-14",
+  "interval_note": "Nominal 80% log-residual calibration interval. Temporal drift removes an exchangeability guarantee; this is not guaranteed 80% coverage for this request.",
+  "scope_note": "Historical asking-price comparison for non-hotel NYC listings with advertised minimum stay >=30 nights. Not achieved booking rates, valuation, revenue or an offer to book.",
+  "warnings": [
+    "Recorded neighborhood was not supplied; comparable medians use a broader supported fallback cell.",
+    "Missing optional model features use the frozen training-fitted imputation."
+  ]
+}

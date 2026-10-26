@@ -1,0 +1,30 @@
+cohort,comparable_level,n
+All eligible September listings,1,7029
+All eligible September listings,2,329
+All eligible September listings,3,1844
+All eligible September listings,4,4143
+All eligible September listings,5,164
+All eligible September listings,6,420
+All eligible September listings,7,222
+All eligible September listings,8,1
+September listings absent from all prior raw IDs,1,485
+September listings absent from all prior raw IDs,2,25
+September listings absent from all prior raw IDs,3,127
+September listings absent from all prior raw IDs,4,333
+September listings absent from all prior raw IDs,5,10
+September listings absent from all prior raw IDs,6,16
+September listings absent from all prior raw IDs,7,14
+All strict novel-host and novel-listing rows,1,158
+All strict novel-host and novel-listing rows,2,14
+All strict novel-host and novel-listing rows,3,47
+All strict novel-host and novel-listing rows,4,160
+All strict novel-host and novel-listing rows,5,5
+All strict novel-host and novel-listing rows,6,7
+All strict novel-host and novel-listing rows,7,7
+PRIMARY one listing per strict novel host,1,111
+PRIMARY one listing per strict novel host,2,13
+PRIMARY one listing per strict novel host,3,40
+PRIMARY one listing per strict novel host,4,128
+PRIMARY one listing per strict novel host,5,5
+PRIMARY one listing per strict novel host,6,7
+PRIMARY one listing per strict novel host,7,7

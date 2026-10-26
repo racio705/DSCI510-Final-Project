@@ -1,0 +1,106 @@
+{
+  "source_manifest": {
+    "schema_version": 1,
+    "sources": {
+      "airbnb": {
+        "filename": "listings.csv.gz",
+        "url": "https://data.insideairbnb.com/united-states/ny/new-york-city/2025-10-01/data/listings.csv.gz",
+        "period": "2025-10-01 Inside Airbnb archive; last_scraped dates also reported",
+        "provenance": "User-supplied original Inside Airbnb detailed NYC extract",
+        "sha256": "a50efc7b11ef0a0786e38787ae2d4f47af1009943a1049503b676cc4b770fcbd",
+        "bytes": 17748368,
+        "registered_at_utc": "2026-10-26T05:12:47.893834+00:00",
+        "downloaded_by_pipeline": false
+      },
+      "subway": {
+        "filename": "subway.csv",
+        "url": "https://data.ny.gov/resource/39hk-dx4f.csv?$limit=5000",
+        "period": "Original user-supplied station extract; extract date unknown",
+        "provenance": "User-supplied original MTA Subway Stations CSV",
+        "sha256": "4f10d7730b4dfe1737cb54426adccb8396346eceec2be9a22a58c9e0ccfdbc57",
+        "bytes": 67853,
+        "registered_at_utc": "2026-10-26T05:12:47.895044+00:00",
+        "downloaded_by_pipeline": false
+      },
+      "income": {
+        "filename": "acs_income_2023.dat",
+        "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+        "period": "2019-2023 ACS 5-year estimates; tract median household income",
+        "provenance": "Census Bureau official table-based summary file B19013",
+        "sha256": "c9007017b7bb29ba758c77612ec9a4a0b897a4ed931d527754629866f580a110",
+        "bytes": 17884943,
+        "registered_at_utc": "2026-10-26T05:12:47.907568+00:00",
+        "downloaded_by_pipeline": false
+      },
+      "population": {
+        "filename": "acs_population_2023.dat",
+        "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01003.dat",
+        "period": "2019-2023 ACS 5-year estimates; tract population",
+        "provenance": "Census Bureau official table-based summary file B01003",
+        "sha256": "24ae3f523b4c54332ce0a71ba534569685a8a729056f975915d860d1eb943565",
+        "bytes": 18311997,
+        "registered_at_utc": "2026-10-26T05:12:47.920984+00:00",
+        "downloaded_by_pipeline": false
+      },
+      "tracts": {
+        "filename": "tl_2023_36_tract.zip",
+        "url": "https://www2.census.gov/geo/tiger/TIGER2023/TRACT/tl_2023_36_tract.zip",
+        "period": "2023 TIGER/Line census tract boundaries, New York State",
+        "provenance": "Census Bureau official TIGER/Line shapefile",
+        "sha256": "010dfd8893c8a2a6482c7a0420b0113a8c0a0029137d0f904635014f39ffb918",
+        "bytes": 8854208,
+        "registered_at_utc": "2026-10-26T05:12:47.928506+00:00",
+        "downloaded_by_pipeline": false
+      }
+    }
+  },
+  "raw_listings": 36111,
+  "price_definition": "Advertised nightly listing price, USD; not booked revenue or property sale value",
+  "distance_definition": "Straight-line metres in EPSG:32618 to unique MTA subway station locations; SIR excluded",
+  "price_tail_filter": "None: retain every finite positive price",
+  "listing_scrape_date_min": "2025-10-01",
+  "listing_scrape_date_max": "2025-10-02",
+  "missing_or_invalid_price": 14783,
+  "nonpositive_price": 0,
+  "duplicate_listing_ids_removed": 0,
+  "positive_price_unique_listings": 21328,
+  "valid_coordinate_listings": 21328,
+  "nyc_tracts": 2327,
+  "tracts_missing_income": 135,
+  "unique_boundary_matches": 0,
+  "ambiguous_boundary_listings": 0,
+  "unmatched_nyc_tract_listings": 2,
+  "station_rows_raw": 496,
+  "sir_rows_excluded": 21,
+  "station_ids_unique_after_sir_exclusion": 472,
+  "unique_station_locations": 472,
+  "analysis_listings": 21326,
+  "listings_missing_income": 317,
+  "missing_income_pct": 1.4864484666604145,
+  "missing_pct": {
+    "accommodates": 0.0,
+    "bedrooms": 0.4032636218700178,
+    "beds": 0.19225358717058988,
+    "bathrooms": 0.03282378317546657,
+    "minimum_nights": 0.0,
+    "number_of_reviews": 0.0,
+    "reviews_per_month": 29.93529025602551,
+    "review_scores_rating": 29.93529025602551,
+    "calculated_host_listings_count": 0.0,
+    "availability_365": 0.0,
+    "median_household_income": 1.4864484666604145
+  },
+  "notes": [
+    "Income/population describe census tracts and do not measure individual hosts or guests.",
+    "ACS 2019-2023 estimates precede the listing snapshot; income margins of error are retained.",
+    "Station extract date is unknown. Straight-line access is not walking distance or travel time.",
+    "Staten Island listings can be far from the subway because SIR stations are excluded.",
+    "Listings without prices are excluded; observed prices may not represent all NYC listings.",
+    "Coordinates are approximate, so tract membership and station distance have measurement error."
+  ],
+  "priced_spatial_listings": 21326,
+  "primary_listing_count": 20308,
+  "hospitality_excluded": 1018,
+  "primary_scope": "Exclude Hotel room or property_type containing hotel, hostel, resort; no price-tail trimming",
+  "primary_median_minimum_nights": 30.0
+}

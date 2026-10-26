@@ -1,0 +1,217 @@
+{
+  "n": 20308,
+  "minimum_stay_30plus_n": 17100,
+  "minimum_stay_30plus_pct": 84.20326964742958,
+  "minimum_stay_upto7_n": 3174,
+  "minimum_stay_upto7_pct": 15.629308646838686,
+  "scope": "October 2025 positive-priced non-hospitality sample. Minimum stay is a listing requirement, not an observed booking duration.",
+  "long_stay_access": [
+    {
+      "room_type": "Entire home/apt",
+      "distance_band": "Within 500 m",
+      "n": 7901,
+      "median_price_usd": 213.0
+    },
+    {
+      "room_type": "Entire home/apt",
+      "distance_band": "500\u20131,000 m",
+      "n": 1759,
+      "median_price_usd": 195.0
+    },
+    {
+      "room_type": "Entire home/apt",
+      "distance_band": "Over 1,000 m",
+      "n": 905,
+      "median_price_usd": 138.0
+    },
+    {
+      "room_type": "Private room",
+      "distance_band": "Within 500 m",
+      "n": 4389,
+      "median_price_usd": 70.0
+    },
+    {
+      "room_type": "Private room",
+      "distance_band": "500\u20131,000 m",
+      "n": 1232,
+      "median_price_usd": 69.0
+    },
+    {
+      "room_type": "Private room",
+      "distance_band": "Over 1,000 m",
+      "n": 777,
+      "median_price_usd": 70.0
+    },
+    {
+      "room_type": "Shared room",
+      "distance_band": "Within 500 m",
+      "n": 116,
+      "median_price_usd": 38.5
+    },
+    {
+      "room_type": "Shared room",
+      "distance_band": "500\u20131,000 m",
+      "n": 16,
+      "median_price_usd": 47.5
+    },
+    {
+      "room_type": "Shared room",
+      "distance_band": "Over 1,000 m",
+      "n": 5,
+      "median_price_usd": 126.0
+    }
+  ],
+  "exact30_comparisons": [
+    {
+      "product_id": "entire_1br_2guests",
+      "comparison_kind": "main_exact_capacity",
+      "stay_scope": "minimum_eq30",
+      "maximum_station_distance_m": 500,
+      "reference_borough": "Manhattan",
+      "comparison_borough": "Brooklyn",
+      "n_reference": 1193,
+      "n_comparison": 561,
+      "tracts_reference": 213,
+      "tracts_comparison": 243,
+      "median_reference_usd": 220.0,
+      "median_comparison_usd": 159.0,
+      "difference_usd": -61.0,
+      "pct_difference": -27.72727273,
+      "eligible_n100": true,
+      "bootstrap_replicates": 1000,
+      "bootstrap_seed": 42,
+      "ci_method": "95% percentile, independent tract resampling within each borough",
+      "ci95_lower_usd": -84.0,
+      "ci95_upper_usd": -40.0,
+      "ci95_lower_pct": -35.62753036,
+      "ci95_upper_pct": -20.0
+    },
+    {
+      "product_id": "entire_1br_2to4guests",
+      "comparison_kind": "capacity_sensitivity",
+      "stay_scope": "minimum_eq30",
+      "maximum_station_distance_m": 500,
+      "reference_borough": "Manhattan",
+      "comparison_borough": "Brooklyn",
+      "n_reference": 1868,
+      "n_comparison": 865,
+      "tracts_reference": 237,
+      "tracts_comparison": 305,
+      "median_reference_usd": 230.0,
+      "median_comparison_usd": 155.0,
+      "difference_usd": -75.0,
+      "pct_difference": -32.60869565,
+      "eligible_n100": true,
+      "bootstrap_replicates": 1000,
+      "bootstrap_seed": 42,
+      "ci_method": "95% percentile, independent tract resampling within each borough",
+      "ci95_lower_usd": -97.0,
+      "ci95_upper_usd": -59.9875,
+      "ci95_lower_pct": -38.8,
+      "ci95_upper_pct": -27.10885296
+    },
+    {
+      "product_id": "entire_1br_2to4guests",
+      "comparison_kind": "capacity_sensitivity",
+      "stay_scope": "minimum_eq30",
+      "maximum_station_distance_m": 500,
+      "reference_borough": "Manhattan",
+      "comparison_borough": "Queens",
+      "n_reference": 1868,
+      "n_comparison": 184,
+      "tracts_reference": 237,
+      "tracts_comparison": 96,
+      "median_reference_usd": 230.0,
+      "median_comparison_usd": 136.0,
+      "difference_usd": -94.0,
+      "pct_difference": -40.86956522,
+      "eligible_n100": true,
+      "bootstrap_replicates": 1000,
+      "bootstrap_seed": 42,
+      "ci_method": "95% percentile, independent tract resampling within each borough",
+      "ci95_lower_usd": -121.0,
+      "ci95_upper_usd": -75.0,
+      "ci95_lower_pct": -49.17087137,
+      "ci95_upper_pct": -34.20753589
+    },
+    {
+      "product_id": "private_1br_1to2guests",
+      "comparison_kind": "main_private_room",
+      "stay_scope": "minimum_eq30",
+      "maximum_station_distance_m": 500,
+      "reference_borough": "Manhattan",
+      "comparison_borough": "Brooklyn",
+      "n_reference": 1111,
+      "n_comparison": 1563,
+      "tracts_reference": 206,
+      "tracts_comparison": 327,
+      "median_reference_usd": 79.0,
+      "median_comparison_usd": 65.0,
+      "difference_usd": -14.0,
+      "pct_difference": -17.72151899,
+      "eligible_n100": true,
+      "bootstrap_replicates": 1000,
+      "bootstrap_seed": 42,
+      "ci_method": "95% percentile, independent tract resampling within each borough",
+      "ci95_lower_usd": -20.0,
+      "ci95_upper_usd": -7.0,
+      "ci95_lower_pct": -24.09638554,
+      "ci95_upper_pct": -9.21052632
+    },
+    {
+      "product_id": "private_1br_1to2guests",
+      "comparison_kind": "main_private_room",
+      "stay_scope": "minimum_eq30",
+      "maximum_station_distance_m": 500,
+      "reference_borough": "Manhattan",
+      "comparison_borough": "Queens",
+      "n_reference": 1111,
+      "n_comparison": 504,
+      "tracts_reference": 206,
+      "tracts_comparison": 144,
+      "median_reference_usd": 79.0,
+      "median_comparison_usd": 67.0,
+      "difference_usd": -12.0,
+      "pct_difference": -15.18987342,
+      "eligible_n100": true,
+      "bootstrap_replicates": 1000,
+      "bootstrap_seed": 42,
+      "ci_method": "95% percentile, independent tract resampling within each borough",
+      "ci95_lower_usd": -19.0,
+      "ci95_upper_usd": -5.0,
+      "ci95_lower_pct": -22.78536531,
+      "ci95_upper_pct": -6.57894737
+    }
+  ],
+  "host_group_models": [
+    {
+      "validation": "Host-group 5-fold",
+      "model": "Room + borough median",
+      "n": 20308,
+      "mae_usd": 122.99103376875806,
+      "rmse_usd": 582.4174960181873,
+      "median_ae_usd": 52.99999999999999,
+      "r2_log": 0.34473028490126667
+    },
+    {
+      "validation": "Host-group 5-fold",
+      "model": "Full without transit",
+      "n": 20308,
+      "mae_usd": 90.49423506511006,
+      "rmse_usd": 551.0949113681892,
+      "median_ae_usd": 35.517714215176845,
+      "r2_log": 0.6796237176671287
+    },
+    {
+      "validation": "Host-group 5-fold",
+      "model": "Full with transit",
+      "n": 20308,
+      "mae_usd": 90.87389096907225,
+      "rmse_usd": 550.7206528387552,
+      "median_ae_usd": 35.21686761337223,
+      "r2_log": 0.6799156400259754
+    }
+  ],
+  "source_manifest": "results/source_manifest.json",
+  "interpretation": "Exploratory extension using the existing historical sample. Comparisons are descriptive or model-reliance diagnostics; not causal effects or transaction prices."
+}

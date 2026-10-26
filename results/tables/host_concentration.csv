@@ -1,0 +1,9 @@
+scope,borough,advertised_minimum_nights,n,median_price_usd,unique_hosts,largest_host_n,largest_host_share_pct,n_excluding_largest_host,median_price_excluding_largest_host_usd,median_of_host_medians_usd
+Primary sample,All,,20308,150.0,10227,1037,5.106362024817805,19271,142.0,149.0
+"Primary, minimum 31 nights",All,31.0,1149,395.0,220,895,77.89382071366406,254,140.0,142.0
+"Entire 1BR, capacity 2, subway within 500 m",Manhattan,30.0,1193,220.0,564,267,22.380553227158423,926,185.0,195.0
+"Entire 1BR, capacity 2, subway within 500 m",Manhattan,31.0,417,405.0,20,398,95.44364508393285,19,172.0,182.5
+"Entire 1BR, capacity 2, subway within 500 m",Brooklyn,30.0,561,159.0,500,9,1.6042780748663101,552,157.0,158.25
+"Entire 1BR, capacity 2, subway within 500 m",Brooklyn,31.0,31,325.0,9,23,74.19354838709677,8,156.5,167.0
+"Entire 1BR, capacity 2, subway within 500 m",Queens,30.0,97,143.0,90,4,4.123711340206185,93,140.0,142.0
+"Entire 1BR, capacity 2, subway within 500 m",Queens,31.0,11,334.0,2,10,90.9090909090909,1,185.0,260.0

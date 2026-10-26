@@ -1,0 +1,13 @@
+{
+  "hypothetical": true,
+  "scenario_note": "Hypothetical input created for this local demonstration; not an observed listing, a current offer, or an actual booking.",
+  "latitude": 40.69,
+  "longitude": -73.95,
+  "room_type": "Entire home/apt",
+  "property_type": "Entire rental unit",
+  "accommodates": 2,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "beds": 1,
+  "minimum_nights": 30
+}

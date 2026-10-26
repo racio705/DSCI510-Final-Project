@@ -1,0 +1,222 @@
+product_id,comparison_kind,stay_scope,maximum_station_distance_m,borough,neighborhood,eligible_n50,n,median_price_usd,price_p25_usd,price_p75_usd,median_advertised_minimum_nights,median_distance_m,tract_count
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Brooklyn,Bedford-Stuyvesant,True,84,154.00000000,123.00000000,180.00000000,30.00000000,304.29475808,34
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Brooklyn,Bushwick,True,54,124.50000000,102.25000000,176.00000000,30.00000000,216.74538451,20
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Brooklyn,Williamsburg,True,111,185.00000000,144.50000000,247.00000000,30.00000000,263.92349217,25
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Chelsea,True,94,291.50000000,171.25000000,460.50000000,30.00000000,197.85613103,14
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Financial District,True,50,406.50000000,255.00000000,548.00000000,30.00000000,168.08791968,5
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Harlem,True,80,123.00000000,104.00000000,164.75000000,30.00000000,278.96108190,22
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Hell's Kitchen,True,75,219.00000000,144.00000000,401.50000000,30.00000000,331.59946768,9
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Lower East Side,True,55,206.00000000,140.00000000,262.50000000,30.00000000,198.82998334,11
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Midtown,True,184,466.50000000,195.00000000,682.25000000,30.00000000,192.40161511,24
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Upper East Side,True,118,147.50000000,125.00000000,224.25000000,30.00000000,321.85916855,28
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,Upper West Side,True,96,190.00000000,145.00000000,282.25000000,30.00000000,237.94890274,23
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,West Village,True,55,250.00000000,182.00000000,355.00000000,30.00000000,230.61158021,7
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Brooklyn,Bedford-Stuyvesant,True,123,150.00000000,121.00000000,176.50000000,30.00000000,400.96008168,41
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Brooklyn,Bushwick,True,59,135.00000000,103.00000000,180.50000000,30.00000000,227.25109010,21
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Brooklyn,Crown Heights,True,51,129.00000000,101.00000000,163.00000000,30.00000000,427.83918604,26
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Brooklyn,Williamsburg,True,135,185.00000000,146.50000000,246.00000000,30.00000000,318.82077156,28
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Chelsea,True,97,290.00000000,170.00000000,472.00000000,30.00000000,201.55115004,15
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,East Village,True,65,200.00000000,147.00000000,288.00000000,30.00000000,334.82192238,12
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Financial District,True,50,406.50000000,255.00000000,548.00000000,30.00000000,168.08791968,5
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Harlem,True,80,123.00000000,104.00000000,164.75000000,30.00000000,278.96108190,22
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Hell's Kitchen,True,106,216.00000000,145.00000000,353.00000000,30.00000000,373.03212098,13
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Lower East Side,True,56,206.00000000,141.50000000,256.25000000,30.00000000,200.75585198,11
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Midtown,True,189,461.00000000,199.00000000,680.00000000,30.00000000,198.75546034,25
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Upper East Side,True,136,149.00000000,125.00000000,225.00000000,30.00000000,345.61876872,32
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,Upper West Side,True,102,195.50000000,146.25000000,282.75000000,30.00000000,243.30471992,25
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,West Village,True,61,278.00000000,185.00000000,362.00000000,30.00000000,230.99520289,7
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Brooklyn,Bedford-Stuyvesant,True,91,151.00000000,119.00000000,180.00000000,30.00000000,288.79171051,34
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Brooklyn,Bushwick,True,59,125.00000000,102.50000000,174.00000000,30.00000000,219.68510328,21
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Brooklyn,Williamsburg,True,122,185.00000000,146.00000000,250.00000000,30.00000000,261.88681878,26
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Chelsea,True,140,388.50000000,219.75000000,532.25000000,30.00000000,188.19144859,14
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,East Village,True,69,275.00000000,166.00000000,412.00000000,30.00000000,270.51621715,8
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Financial District,True,92,402.00000000,338.75000000,488.25000000,30.00000000,148.61585264,5
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Harlem,True,85,121.00000000,101.00000000,164.00000000,30.00000000,280.42714785,23
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Hell's Kitchen,True,84,219.50000000,150.00000000,401.50000000,30.00000000,322.49211264,9
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Lower East Side,True,61,217.00000000,150.00000000,288.00000000,30.00000000,202.68172062,11
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Midtown,True,246,436.00000000,210.00000000,602.75000000,30.00000000,213.36196136,24
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Murray Hill,True,52,390.50000000,199.00000000,444.75000000,30.00000000,311.90229921,6
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Theater District,True,73,427.00000000,381.00000000,602.00000000,30.00000000,151.84348358,3
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Upper East Side,True,153,191.00000000,128.00000000,350.00000000,30.00000000,330.97592682,29
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,Upper West Side,True,155,283.00000000,175.00000000,387.00000000,30.00000000,237.26061667,26
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,West Village,True,104,363.50000000,227.00000000,451.50000000,30.00000000,232.14214816,7
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Brooklyn,Bedford-Stuyvesant,True,131,148.00000000,119.00000000,176.50000000,30.00000000,391.69005439,41
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Brooklyn,Bushwick,True,64,135.00000000,103.00000000,179.25000000,30.00000000,228.90545234,22
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Brooklyn,Crown Heights,True,53,129.00000000,100.00000000,164.00000000,30.00000000,420.82087586,26
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Brooklyn,Williamsburg,True,146,185.00000000,148.25000000,249.50000000,30.00000000,317.87999872,28
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Chelsea,True,145,384.00000000,220.00000000,531.00000000,30.00000000,190.40503073,15
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,East Harlem,True,53,133.00000000,108.00000000,170.00000000,30.00000000,326.88859804,14
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,East Village,True,89,236.00000000,160.00000000,358.00000000,30.00000000,328.45948539,12
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Financial District,True,92,402.00000000,338.75000000,488.25000000,30.00000000,148.61585264,5
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Harlem,True,85,121.00000000,101.00000000,164.00000000,30.00000000,280.42714785,23
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Hell's Kitchen,True,137,233.00000000,150.00000000,414.00000000,30.00000000,400.22065492,13
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Kips Bay,True,58,196.00000000,162.00000000,358.00000000,30.00000000,475.33630781,7
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Lower East Side,True,62,216.50000000,150.25000000,285.50000000,30.00000000,202.89615715,11
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Midtown,True,258,431.00000000,215.75000000,584.50000000,30.00000000,214.49873167,25
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Murray Hill,True,60,364.50000000,213.25000000,436.75000000,30.00000000,318.44979148,6
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Theater District,True,73,427.00000000,381.00000000,602.00000000,30.00000000,151.84348358,3
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Upper East Side,True,179,192.00000000,130.50000000,355.50000000,30.00000000,352.89778231,33
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,Upper West Side,True,166,299.50000000,176.00000000,388.75000000,30.00000000,244.69820367,29
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,West Village,True,110,363.50000000,230.25000000,454.50000000,30.00000000,233.11860471,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Brooklyn,Bedford-Stuyvesant,True,132,150.50000000,124.00000000,181.00000000,30.00000000,288.21928107,37
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Brooklyn,Bushwick,True,72,121.50000000,101.75000000,166.25000000,30.00000000,220.69246605,24
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Brooklyn,Crown Heights,True,78,144.00000000,108.50000000,174.50000000,30.00000000,345.96423147,36
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Brooklyn,Williamsburg,True,145,181.00000000,136.00000000,250.00000000,30.00000000,264.77522456,28
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Chelsea,True,136,300.00000000,199.50000000,404.00000000,30.00000000,190.87723255,14
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,East Harlem,True,52,143.00000000,119.00000000,177.25000000,30.00000000,252.51316759,17
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,East Village,True,64,218.00000000,157.50000000,303.50000000,30.00000000,269.63777489,9
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Financial District,True,68,358.00000000,257.25000000,548.00000000,30.00000000,153.42905175,5
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Harlem,True,133,135.00000000,109.00000000,175.00000000,30.00000000,279.08378469,29
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Hell's Kitchen,True,121,224.00000000,150.00000000,347.00000000,30.00000000,328.48915224,9
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Kips Bay,True,50,164.50000000,150.00000000,234.50000000,30.00000000,455.97832738,5
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Lower East Side,True,89,208.00000000,165.00000000,300.00000000,30.00000000,224.57968111,11
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Midtown,True,273,367.00000000,209.00000000,605.00000000,30.00000000,198.75546034,26
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Murray Hill,True,72,230.00000000,188.75000000,351.25000000,30.00000000,330.37377704,6
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Theater District,True,60,501.50000000,334.25000000,650.75000000,30.00000000,113.17987403,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Upper East Side,True,219,198.00000000,135.00000000,260.00000000,30.00000000,289.77122346,32
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,Upper West Side,True,174,218.00000000,163.25000000,274.50000000,30.00000000,243.30471992,24
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,West Village,True,75,290.00000000,192.00000000,397.00000000,30.00000000,230.61158021,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Brooklyn,Bedford-Stuyvesant,True,195,149.00000000,124.00000000,180.00000000,30.00000000,399.38012187,45
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Brooklyn,Bushwick,True,81,125.00000000,103.00000000,165.00000000,30.00000000,242.66123317,25
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Brooklyn,Crown Heights,True,101,133.00000000,105.00000000,167.00000000,30.00000000,401.27330179,42
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Brooklyn,Greenpoint,True,57,229.00000000,176.00000000,285.00000000,30.00000000,389.23916495,13
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Brooklyn,Williamsburg,True,185,181.00000000,144.00000000,250.00000000,30.00000000,331.24918324,30
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Chelsea,True,140,300.00000000,199.50000000,404.00000000,30.00000000,192.11733297,15
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,East Harlem,True,70,145.50000000,120.00000000,174.25000000,30.00000000,332.43740513,18
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,East Village,True,81,200.00000000,160.00000000,299.00000000,30.00000000,328.45948539,13
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Financial District,True,68,358.00000000,257.25000000,548.00000000,30.00000000,153.42905175,5
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Harlem,True,133,135.00000000,109.00000000,175.00000000,30.00000000,279.08378469,29
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Hell's Kitchen,True,200,219.50000000,151.50000000,340.00000000,30.00000000,430.67612281,13
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Kips Bay,True,72,169.50000000,151.50000000,231.75000000,30.00000000,476.44727057,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Lower East Side,True,91,206.00000000,165.50000000,294.00000000,30.00000000,228.10225679,11
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Midtown,True,281,367.00000000,209.00000000,594.00000000,30.00000000,203.06060808,27
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Murray Hill,True,80,230.00000000,197.50000000,347.00000000,30.00000000,335.07064116,6
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Theater District,True,60,501.50000000,334.25000000,650.75000000,30.00000000,113.17987403,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Upper East Side,True,246,195.00000000,135.25000000,259.00000000,30.00000000,319.04816651,35
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,Upper West Side,True,181,220.00000000,162.00000000,275.00000000,30.00000000,252.81503947,26
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,West Village,True,81,291.00000000,195.00000000,400.00000000,30.00000000,230.97829236,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Brooklyn,Bedford-Stuyvesant,True,141,150.00000000,124.00000000,181.00000000,30.00000000,285.86730445,37
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Brooklyn,Bushwick,True,78,122.00000000,102.25000000,164.75000000,30.00000000,220.69246605,24
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Brooklyn,Crown Heights,True,81,145.00000000,108.00000000,176.00000000,30.00000000,349.55409281,37
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Brooklyn,Williamsburg,True,158,185.00000000,144.00000000,250.00000000,30.00000000,266.29318056,28
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Chelsea,True,185,361.00000000,228.00000000,510.00000000,30.00000000,185.41346455,14
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,East Harlem,True,61,143.00000000,120.00000000,184.00000000,30.00000000,252.06040081,17
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,East Village,True,85,275.00000000,176.00000000,410.00000000,30.00000000,267.17409656,9
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Financial District,True,110,397.50000000,323.25000000,487.50000000,30.00000000,139.86516746,5
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Gramercy,True,53,342.00000000,202.00000000,439.00000000,30.00000000,207.34002253,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Harlem,True,141,131.00000000,108.00000000,175.00000000,30.00000000,280.42714785,31
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Hell's Kitchen,True,130,225.50000000,151.25000000,378.00000000,30.00000000,323.24385084,9
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Kips Bay,True,63,175.00000000,152.00000000,309.50000000,30.00000000,429.94376364,5
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Lower East Side,True,96,211.50000000,165.75000000,301.25000000,30.00000000,226.34096895,11
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Midtown,True,336,376.00000000,224.00000000,541.75000000,30.00000000,213.36196136,26
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Murray Hill,True,91,240.00000000,204.50000000,405.00000000,30.00000000,318.44979148,6
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Nolita,True,50,348.00000000,217.75000000,383.75000000,30.00000000,170.81045970,2
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Theater District,True,87,409.00000000,370.00000000,578.00000000,30.00000000,129.25069001,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Upper East Side,True,256,211.00000000,138.50000000,320.00000000,30.00000000,300.43467090,32
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,Upper West Side,True,238,235.00000000,175.00000000,354.75000000,30.00000000,242.09045693,26
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,West Village,True,125,362.00000000,227.00000000,454.00000000,30.00000000,230.99520289,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Queens,Long Island City,True,50,204.50000000,160.00000000,338.25000000,30.00000000,218.69553760,14
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Brooklyn,Bedford-Stuyvesant,True,206,147.50000000,124.00000000,180.00000000,30.00000000,392.16361420,45
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Brooklyn,Bushwick,True,87,125.00000000,103.00000000,164.50000000,30.00000000,241.09534948,25
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Brooklyn,Crown Heights,True,104,134.00000000,105.00000000,168.50000000,30.00000000,399.17726636,42
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Brooklyn,Greenpoint,True,62,229.50000000,177.00000000,286.50000000,30.00000000,395.79021728,13
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Brooklyn,Williamsburg,True,200,185.00000000,145.00000000,250.00000000,30.00000000,335.15785603,30
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Chelsea,True,191,361.00000000,229.00000000,508.00000000,30.00000000,185.41346455,15
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,East Harlem,True,80,144.00000000,120.00000000,177.25000000,30.00000000,319.36766465,18
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,East Village,True,106,238.00000000,163.75000000,359.75000000,30.00000000,312.72886330,13
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Financial District,True,110,397.50000000,323.25000000,487.50000000,30.00000000,139.86516746,5
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Gramercy,True,60,317.00000000,199.00000000,423.50000000,30.00000000,222.27557897,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Harlem,True,141,131.00000000,108.00000000,175.00000000,30.00000000,280.42714785,31
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Hell's Kitchen,True,231,233.00000000,159.00000000,396.50000000,30.00000000,446.75216764,13
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Kips Bay,True,94,216.50000000,154.00000000,334.00000000,30.00000000,476.00379919,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Lower East Side,True,98,209.00000000,167.00000000,300.75000000,30.00000000,228.10225679,11
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Midtown,True,351,372.00000000,227.50000000,523.50000000,30.00000000,215.14635380,27
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Murray Hill,True,105,240.00000000,210.00000000,388.00000000,30.00000000,333.99233057,6
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Nolita,True,50,348.00000000,217.75000000,383.75000000,30.00000000,170.81045970,2
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Theater District,True,87,409.00000000,370.00000000,578.00000000,30.00000000,129.25069001,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Upper East Side,True,292,210.00000000,141.00000000,322.25000000,30.00000000,333.61468845,35
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,Upper West Side,True,250,239.50000000,175.00000000,363.75000000,30.00000000,257.20644374,29
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,West Village,True,131,362.00000000,230.00000000,455.00000000,30.00000000,232.14214816,7
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Queens,Long Island City,True,54,204.50000000,160.25000000,338.25000000,30.00000000,224.00087716,15
+private_1br_1to2guests,main_private_room,minimum_le7,500,Brooklyn,Bedford-Stuyvesant,True,87,138.00000000,104.50000000,171.00000000,2.00000000,276.97760888,33
+private_1br_1to2guests,main_private_room,minimum_le7,500,Brooklyn,Bushwick,True,71,125.00000000,100.50000000,176.00000000,2.00000000,269.18194817,25
+private_1br_1to2guests,main_private_room,minimum_le7,500,Manhattan,Harlem,True,68,140.00000000,116.00000000,199.50000000,2.00000000,298.26509712,22
+private_1br_1to2guests,main_private_room,minimum_le7,800,Brooklyn,Bedford-Stuyvesant,True,119,145.00000000,107.00000000,185.50000000,2.00000000,347.45897024,42
+private_1br_1to2guests,main_private_room,minimum_le7,800,Brooklyn,Bushwick,True,76,125.50000000,101.00000000,177.75000000,2.00000000,275.29351909,26
+private_1br_1to2guests,main_private_room,minimum_le7,800,Manhattan,Harlem,True,68,140.00000000,116.00000000,199.50000000,2.00000000,298.26509712,22
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Bedford-Stuyvesant,True,392,59.00000000,49.00000000,88.00000000,30.00000000,279.00189589,42
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Bushwick,True,284,57.00000000,46.00000000,80.00000000,30.00000000,281.84991920,30
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Crown Heights,True,116,68.00000000,50.00000000,96.25000000,30.00000000,340.72973188,30
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Cypress Hills,True,60,55.50000000,46.50000000,71.25000000,30.00000000,311.61237666,16
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Prospect-Lefferts Gardens,True,54,60.50000000,49.00000000,87.00000000,30.00000000,319.02656806,11
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Sunset Park,True,57,76.00000000,60.00000000,94.00000000,30.00000000,286.46916381,20
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,Williamsburg,True,197,76.00000000,65.00000000,119.00000000,30.00000000,250.11633460,27
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,East Harlem,True,87,73.00000000,61.00000000,102.50000000,30.00000000,292.86083086,17
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,Harlem,True,379,68.00000000,57.00000000,90.00000000,30.00000000,275.41436570,37
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,Hell's Kitchen,True,66,99.00000000,86.00000000,135.00000000,30.00000000,385.49888067,7
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,Upper East Side,True,50,103.00000000,84.50000000,133.50000000,30.00000000,290.52275290,22
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,Upper West Side,True,113,95.00000000,79.00000000,123.00000000,30.00000000,246.67658803,21
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,Washington Heights,True,149,54.00000000,48.00000000,74.00000000,30.00000000,271.57151726,21
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Queens,Astoria,True,81,77.00000000,58.00000000,91.00000000,30.00000000,287.39647309,15
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Queens,Ridgewood,True,73,53.00000000,49.00000000,71.00000000,30.00000000,239.01686743,11
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Queens,Woodside,True,65,70.00000000,60.00000000,86.00000000,30.00000000,303.92057989,12
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Bedford-Stuyvesant,True,522,59.50000000,49.00000000,88.00000000,30.00000000,345.24184487,49
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Bushwick,True,322,58.50000000,46.00000000,80.75000000,30.00000000,304.43776820,30
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Crown Heights,True,178,65.00000000,50.00000000,92.75000000,30.00000000,429.18679153,34
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Cypress Hills,True,64,55.00000000,45.00000000,70.25000000,30.00000000,317.42968013,16
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,East Flatbush,True,60,64.00000000,49.50000000,85.25000000,30.00000000,379.02329510,21
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,East New York,True,68,60.00000000,45.75000000,81.75000000,30.00000000,446.74831715,20
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Flatbush,True,64,70.00000000,55.00000000,82.75000000,30.00000000,361.10775705,24
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Prospect-Lefferts Gardens,True,55,60.00000000,49.00000000,86.00000000,30.00000000,320.32836087,11
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Sunset Park,True,70,73.00000000,56.25000000,91.00000000,30.00000000,332.11779473,22
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,Williamsburg,True,229,78.00000000,66.00000000,119.00000000,30.00000000,275.18712294,31
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,East Harlem,True,97,73.00000000,60.00000000,107.00000000,30.00000000,319.26590569,18
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,Harlem,True,379,68.00000000,57.00000000,90.00000000,30.00000000,275.41436570,37
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,Hell's Kitchen,True,87,99.00000000,85.00000000,150.00000000,30.00000000,430.14730148,10
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,Upper East Side,True,62,102.50000000,81.00000000,133.50000000,30.00000000,371.95021593,25
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,Upper West Side,True,113,95.00000000,79.00000000,123.00000000,30.00000000,246.67658803,21
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,Washington Heights,True,149,54.00000000,48.00000000,74.00000000,30.00000000,271.57151726,21
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Queens,Astoria,True,108,77.00000000,58.00000000,95.00000000,30.00000000,317.81867891,24
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Queens,Elmhurst,True,65,59.00000000,48.00000000,70.00000000,30.00000000,299.74276149,18
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Queens,Ridgewood,True,81,55.00000000,49.00000000,72.00000000,30.00000000,239.12800534,13
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Queens,Woodside,True,73,69.00000000,55.00000000,81.00000000,30.00000000,307.19231391,14
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Bedford-Stuyvesant,True,402,59.00000000,49.00000000,88.00000000,30.00000000,278.15095794,42
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Bushwick,True,290,57.00000000,46.00000000,80.00000000,30.00000000,282.89839507,30
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Crown Heights,True,123,67.00000000,50.00000000,96.50000000,30.00000000,336.96690469,30
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Cypress Hills,True,61,55.00000000,45.00000000,71.00000000,30.00000000,310.47183742,16
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Flatbush,True,51,68.00000000,53.00000000,80.50000000,30.00000000,328.89362859,20
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Prospect-Lefferts Gardens,True,54,60.50000000,49.00000000,87.00000000,30.00000000,319.02656806,11
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Sunset Park,True,59,76.00000000,60.00000000,92.50000000,30.00000000,282.80305138,21
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,Williamsburg,True,201,76.00000000,65.00000000,119.00000000,30.00000000,250.11633460,29
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,East Harlem,True,91,73.00000000,61.00000000,100.00000000,30.00000000,282.19098905,17
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,Harlem,True,394,68.00000000,57.00000000,89.75000000,30.00000000,277.53843273,37
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,Hell's Kitchen,True,66,99.00000000,86.00000000,135.00000000,30.00000000,385.49888067,7
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,Upper East Side,True,52,103.50000000,85.50000000,135.25000000,30.00000000,290.52275290,22
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,Upper West Side,True,116,95.00000000,79.00000000,123.25000000,30.00000000,244.03511574,21
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,Washington Heights,True,153,55.00000000,49.00000000,75.00000000,30.00000000,271.57151726,21
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Queens,Astoria,True,84,76.50000000,57.75000000,91.00000000,30.00000000,289.52544794,16
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Queens,Ridgewood,True,73,53.00000000,49.00000000,71.00000000,30.00000000,239.01686743,11
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Queens,Woodside,True,66,70.00000000,58.50000000,85.75000000,30.00000000,302.21350576,12
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Bedford-Stuyvesant,True,532,60.00000000,49.00000000,88.00000000,30.00000000,342.54449147,49
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Bushwick,True,332,58.50000000,46.00000000,81.00000000,30.00000000,305.36113640,30
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Crown Heights,True,186,65.00000000,50.00000000,92.75000000,30.00000000,421.10653683,34
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Cypress Hills,True,65,55.00000000,45.00000000,70.00000000,30.00000000,317.42968013,16
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,East Flatbush,True,61,64.00000000,50.00000000,89.00000000,30.00000000,361.87023889,21
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,East New York,True,69,60.00000000,46.00000000,81.00000000,30.00000000,446.97686833,20
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Flatbush,True,66,70.00000000,55.00000000,81.75000000,30.00000000,361.10775705,24
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Prospect-Lefferts Gardens,True,55,60.00000000,49.00000000,86.00000000,30.00000000,320.32836087,11
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Sunset Park,True,72,73.00000000,56.00000000,91.00000000,30.00000000,330.92326097,23
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,Williamsburg,True,233,78.00000000,66.00000000,119.00000000,30.00000000,275.18712294,32
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,East Harlem,True,101,73.00000000,60.00000000,105.00000000,30.00000000,315.38634444,18
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,East Village,True,51,95.00000000,77.50000000,116.50000000,30.00000000,498.73116508,12
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,Harlem,True,394,68.00000000,57.00000000,89.75000000,30.00000000,277.53843273,37
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,Hell's Kitchen,True,89,99.00000000,85.00000000,150.00000000,30.00000000,431.73487779,10
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,Lower East Side,True,51,105.00000000,80.00000000,143.00000000,30.00000000,227.52684189,9
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,Upper East Side,True,64,103.00000000,81.00000000,135.25000000,30.00000000,371.95021593,25
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,Upper West Side,True,116,95.00000000,79.00000000,123.25000000,30.00000000,244.03511574,21
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,Washington Heights,True,154,54.50000000,48.25000000,74.75000000,30.00000000,272.54407126,21
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Queens,Astoria,True,111,77.00000000,58.00000000,94.50000000,30.00000000,323.71209673,25
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Queens,Elmhurst,True,65,59.00000000,48.00000000,70.00000000,30.00000000,299.74276149,18
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Queens,Ridgewood,True,81,55.00000000,49.00000000,72.00000000,30.00000000,239.12800534,13
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Queens,Sunnyside,True,55,71.00000000,60.00000000,90.50000000,30.00000000,512.53487207,14
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Queens,Woodside,True,74,68.00000000,55.00000000,80.75000000,30.00000000,306.76737585,14

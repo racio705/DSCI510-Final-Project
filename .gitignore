@@ -178,8 +178,9 @@ cython_debug/
 # ============================================
 
 # Data directories
-data/
-results/
+data/raw/
+data/processed/
+.runtime/
 output/
 models/
 datasets/
@@ -232,6 +233,9 @@ ENV/
 
 # Large data files
 *.csv
+!data/reference/*.csv
+!results/tables/*.csv
+!results/tables/**/*.csv
 *.h5
 *.hdf5
 *.pickle

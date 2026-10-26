@@ -1,0 +1,4 @@
+product_id,room_type,capacity_min,capacity_max,comparison_kind,bedrooms_required,room_and_capacity_n,bedrooms_missing_excluded,other_bedroom_counts_excluded,n,median_price_usd,price_p25_usd,price_p75_usd,median_advertised_minimum_nights,median_distance_m,tract_count
+entire_1br_2guests,Entire home/apt,2,2,main_exact_capacity,1,4734,27,1313,3394,199.00000000,130.00000000,361.00000000,30.00000000,292.36315187,922
+entire_1br_2to4guests,Entire home/apt,2,4,capacity_sensitivity,1,8871,32,3738,5101,198.00000000,131.00000000,340.00000000,30.00000000,303.69629120,1145
+private_1br_1to2guests,Private room,1,2,main_private_room,1,7592,3,1114,6475,79.00000000,56.00000000,115.50000000,30.00000000,368.03392878,1459

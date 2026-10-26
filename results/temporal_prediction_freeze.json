@@ -1,0 +1,10 @@
+{
+  "protocol_commit": "b75e5a69daf625312ca2a4c582d3ddbf36657447",
+  "point_models_trained_at_utc": "2026-10-26T07:02:52.374561+00:00",
+  "future_prediction_sha256": {
+    "2026-06-14": "bed6f7166d8a2a651c183ecbb29ba758ca72ae8654600ce9bb575853118537de",
+    "2026-09-14": "8bac1c361c1d1220880d0ab9271ad7fe6cd4f0a773feeb0cc85938325e9afd20"
+  },
+  "target_columns_passed_to_prediction": false,
+  "phase": "point predictions frozen before June calibration / September scoring"
+}

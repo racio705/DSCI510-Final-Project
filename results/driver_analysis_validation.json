@@ -1,0 +1,17 @@
+{
+  "candidate": "Full with transit",
+  "validation": "Spatial 2 km 5-fold",
+  "n": 20308,
+  "repeats": 5,
+  "baseline_mae_usd": 79.33796329188003,
+  "existing_mae_usd": 79.33796329188006,
+  "baseline_matches_existing_benchmark": true,
+  "interpretation": [
+    "Positive deltas mean held-out error increased after shuffling a feature group.",
+    "Features within each group are shuffled jointly; correlation within the group is preserved.",
+    "Correlated information across groups makes importance conditional on the existing feature set.",
+    "Shuffled combinations can be unrealistic; results do not identify causal effects.",
+    "Repeat/fold ranges measure empirical shuffle/fold stability, not statistical confidence intervals.",
+    "The full model with transit is used to retain all seven candidate feature groups, even though the without-transit candidate has slightly better unpermuted MAE."
+  ]
+}

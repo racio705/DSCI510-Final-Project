@@ -1,0 +1,91 @@
+product_id,comparison_kind,stay_scope,maximum_station_distance_m,borough,eligible_n100,n,median_price_usd,price_p25_usd,price_p75_usd,median_advertised_minimum_nights,median_distance_m,tract_count
+entire_1br_2guests,main_exact_capacity,minimum_le7,500,Manhattan,True,116,281.00000000,162.00000000,424.75000000,1.00000000,225.32059339,56
+entire_1br_2guests,main_exact_capacity,minimum_le7,500,Brooklyn,False,73,219.00000000,170.00000000,259.00000000,2.00000000,317.08513591,54
+entire_1br_2guests,main_exact_capacity,minimum_le7,500,Queens,False,9,126.00000000,124.00000000,193.00000000,2.00000000,209.95235826,8
+entire_1br_2guests,main_exact_capacity,minimum_le7,500,Bronx,False,1,184.00000000,184.00000000,184.00000000,3.00000000,232.86061589,1
+entire_1br_2guests,main_exact_capacity,minimum_le7,500,Staten Island,False,0,,,,,,0
+entire_1br_2guests,main_exact_capacity,minimum_le7,800,Manhattan,True,118,288.00000000,167.75000000,426.25000000,1.00000000,227.09466289,58
+entire_1br_2guests,main_exact_capacity,minimum_le7,800,Brooklyn,False,94,209.00000000,170.25000000,256.75000000,2.00000000,399.19910253,66
+entire_1br_2guests,main_exact_capacity,minimum_le7,800,Queens,False,15,126.00000000,119.00000000,176.50000000,2.00000000,475.80582099,12
+entire_1br_2guests,main_exact_capacity,minimum_le7,800,Bronx,False,4,160.50000000,137.75000000,178.00000000,2.00000000,620.61411322,4
+entire_1br_2guests,main_exact_capacity,minimum_le7,800,Staten Island,False,0,,,,,,0
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Manhattan,True,1193,220.00000000,150.00000000,439.00000000,30.00000000,230.61158021,213
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Brooklyn,True,561,159.00000000,115.00000000,205.00000000,30.00000000,281.86105531,243
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Queens,False,97,143.00000000,109.00000000,180.00000000,30.00000000,251.04630308,62
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Bronx,False,31,95.00000000,75.00000000,163.50000000,30.00000000,304.43960141,28
+entire_1br_2guests,main_exact_capacity,minimum_eq30,500,Staten Island,False,0,,,,,,0
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Manhattan,True,1313,217.00000000,150.00000000,415.00000000,30.00000000,248.37237197,235
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Brooklyn,True,722,154.50000000,113.25000000,204.00000000,30.00000000,337.56169474,296
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Queens,True,128,132.50000000,100.00000000,172.00000000,30.00000000,291.42650074,85
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Bronx,False,50,96.00000000,81.50000000,148.25000000,30.00000000,447.86338011,42
+entire_1br_2guests,main_exact_capacity,minimum_eq30,800,Staten Island,False,0,,,,,,0
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Manhattan,True,1657,310.00000000,170.00000000,447.00000000,30.00000000,229.44568284,222
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Brooklyn,True,618,160.00000000,115.00000000,215.00000000,30.00000000,269.26815953,248
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Queens,True,120,150.00000000,109.75000000,209.00000000,30.00000000,259.36752954,68
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Bronx,False,32,92.50000000,75.00000000,161.75000000,30.00000000,295.61011678,29
+entire_1br_2guests,main_exact_capacity,minimum_ge30,500,Staten Island,False,0,,,,,,0
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Manhattan,True,1841,302.00000000,169.00000000,438.00000000,30.00000000,246.20113613,244
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Brooklyn,True,787,156.00000000,115.00000000,211.50000000,30.00000000,328.59267551,302
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Queens,True,151,140.00000000,100.00000000,199.00000000,30.00000000,300.89481472,88
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Bronx,False,51,96.00000000,81.00000000,146.50000000,30.00000000,445.13426838,43
+entire_1br_2guests,main_exact_capacity,minimum_ge30,800,Staten Island,False,0,,,,,,0
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,500,Manhattan,True,228,309.50000000,217.25000000,450.00000000,1.00000000,219.70583059,79
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,500,Brooklyn,False,90,220.00000000,172.00000000,262.00000000,2.00000000,318.39343482,66
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,500,Queens,False,15,193.00000000,126.00000000,227.00000000,2.00000000,209.95235826,14
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,500,Bronx,False,1,184.00000000,184.00000000,184.00000000,3.00000000,232.86061589,1
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,500,Staten Island,False,0,,,,,,0
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,800,Manhattan,True,240,315.00000000,222.25000000,450.00000000,1.00000000,221.38580503,84
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,800,Brooklyn,True,132,222.00000000,180.00000000,290.25000000,2.00000000,419.14545643,80
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,800,Queens,False,23,150.00000000,124.50000000,210.00000000,2.00000000,447.10076598,19
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,800,Bronx,False,4,160.50000000,137.75000000,178.00000000,2.00000000,620.61411322,4
+entire_1br_2to4guests,capacity_sensitivity,minimum_le7,800,Staten Island,False,0,,,,,,0
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Manhattan,True,1868,230.00000000,160.00000000,371.00000000,30.00000000,232.54464712,237
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Brooklyn,True,865,155.00000000,115.00000000,205.00000000,30.00000000,285.85201115,305
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Queens,True,184,136.00000000,104.00000000,179.25000000,30.00000000,263.49021268,96
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Bronx,False,57,100.00000000,86.00000000,160.00000000,30.00000000,325.09427940,48
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,500,Staten Island,False,0,,,,,,0
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Manhattan,True,2082,226.00000000,160.00000000,366.00000000,30.00000000,252.52815623,257
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Brooklyn,True,1125,153.00000000,115.00000000,204.00000000,30.00000000,341.55256305,371
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Queens,True,241,129.00000000,100.00000000,174.00000000,30.00000000,309.49136624,132
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Bronx,False,94,101.50000000,86.00000000,141.75000000,30.00000000,432.25580313,68
+entire_1br_2to4guests,capacity_sensitivity,minimum_eq30,800,Staten Island,False,0,,,,,,0
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Manhattan,True,2356,275.00000000,171.00000000,412.00000000,30.00000000,231.43290531,242
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Brooklyn,True,935,158.00000000,115.00000000,212.00000000,30.00000000,281.86105531,308
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Queens,True,209,141.00000000,105.00000000,185.00000000,30.00000000,272.01371574,102
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Bronx,False,59,100.00000000,80.50000000,160.00000000,30.00000000,304.43960141,49
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,500,Staten Island,False,0,,,,,,0
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Manhattan,True,2636,263.50000000,170.00000000,405.00000000,30.00000000,251.42395838,263
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Brooklyn,True,1207,155.00000000,115.00000000,210.00000000,30.00000000,338.07424325,375
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Queens,True,267,132.00000000,100.00000000,183.50000000,30.00000000,323.20988588,137
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Bronx,False,96,100.00000000,84.50000000,141.25000000,30.00000000,411.96670444,69
+entire_1br_2to4guests,capacity_sensitivity,minimum_ge30,800,Staten Island,False,0,,,,,,0
+private_1br_1to2guests,main_private_room,minimum_le7,500,Manhattan,True,202,154.00000000,120.00000000,215.00000000,2.00000000,309.27350483,87
+private_1br_1to2guests,main_private_room,minimum_le7,500,Brooklyn,True,431,135.00000000,105.00000000,175.00000000,2.00000000,285.80602121,200
+private_1br_1to2guests,main_private_room,minimum_le7,500,Queens,True,102,116.50000000,95.00000000,143.00000000,2.00000000,296.74191364,66
+private_1br_1to2guests,main_private_room,minimum_le7,500,Bronx,False,55,115.00000000,95.00000000,142.00000000,2.00000000,301.19629184,37
+private_1br_1to2guests,main_private_room,minimum_le7,500,Staten Island,False,0,,,,,,0
+private_1br_1to2guests,main_private_room,minimum_le7,800,Manhattan,True,230,158.50000000,120.25000000,215.00000000,2.00000000,328.42433330,97
+private_1br_1to2guests,main_private_room,minimum_le7,800,Brooklyn,True,555,138.00000000,107.00000000,182.00000000,2.00000000,332.16227498,252
+private_1br_1to2guests,main_private_room,minimum_le7,800,Queens,True,144,117.00000000,95.00000000,143.00000000,2.00000000,377.38271274,94
+private_1br_1to2guests,main_private_room,minimum_le7,800,Bronx,False,64,113.00000000,94.75000000,141.50000000,2.00000000,348.91296257,43
+private_1br_1to2guests,main_private_room,minimum_le7,800,Staten Island,False,0,,,,,,0
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Manhattan,True,1111,79.00000000,60.00000000,113.00000000,30.00000000,274.30636082,206
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Brooklyn,True,1563,65.00000000,51.00000000,94.00000000,30.00000000,283.36943355,327
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Queens,True,504,67.00000000,51.00000000,85.00000000,30.00000000,278.43723586,144
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Bronx,True,205,60.00000000,46.00000000,89.00000000,30.00000000,288.58504094,97
+private_1br_1to2guests,main_private_room,minimum_eq30,500,Staten Island,False,0,,,,,,0
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Manhattan,True,1197,80.00000000,61.00000000,116.00000000,30.00000000,283.33457303,221
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Brooklyn,True,1978,66.00000000,51.00000000,92.00000000,30.00000000,333.59976867,392
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Queens,True,702,66.00000000,50.00000000,85.00000000,30.00000000,349.41700169,205
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Bronx,True,265,60.00000000,48.00000000,82.00000000,30.00000000,349.83698134,133
+private_1br_1to2guests,main_private_room,minimum_eq30,800,Staten Island,False,0,,,,,,0
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Manhattan,True,1162,79.00000000,60.00000000,116.00000000,30.00000000,273.50196016,209
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Brooklyn,True,1612,65.00000000,51.00000000,95.00000000,30.00000000,282.91912227,339
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Queens,True,517,67.00000000,51.00000000,85.00000000,30.00000000,286.47107802,146
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Bronx,True,207,60.00000000,46.00000000,87.50000000,30.00000000,288.26779501,97
+private_1br_1to2guests,main_private_room,minimum_ge30,500,Staten Island,False,0,,,,,,0
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Manhattan,True,1253,80.00000000,61.00000000,118.00000000,30.00000000,283.33457303,224
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Brooklyn,True,2037,66.00000000,51.00000000,92.00000000,30.00000000,333.65956305,404
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Queens,True,723,66.00000000,50.00000000,85.00000000,30.00000000,350.40538350,208
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Bronx,True,269,60.00000000,48.00000000,81.00000000,30.00000000,349.83698134,134
+private_1br_1to2guests,main_private_room,minimum_ge30,800,Staten Island,False,0,,,,,,0

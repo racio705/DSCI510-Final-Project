@@ -1,0 +1,419 @@
+{
+  "spatial_autocorrelation": {
+    "observed_log_price": {
+      "moran_i": 0.6612623244176197,
+      "p_two_sided": 0.002,
+      "tracts": 996,
+      "permutations": 499,
+      "weights": "symmetrized 8-nearest-tract-centroids, row-standardized"
+    },
+    "oof_residual": {
+      "moran_i": 0.07368105029290728,
+      "p_two_sided": 0.002,
+      "tracts": 996,
+      "permutations": 499,
+      "weights": "symmetrized 8-nearest-tract-centroids, row-standardized"
+    },
+    "note": "Tracts with >=5 selected listings; coordinates are listing means. Residuals are full-with-transit spatial-fold OOF. Exploratory diagnostic, not model selection."
+  },
+  "listing_count": 20308,
+  "median_price_usd": 150.0,
+  "median_distance_m": 336.4267174251244,
+  "within_500m_pct": 71.63186921410282,
+  "within_350m_pct": 52.49162891471342,
+  "within_650m_pct": 80.9483947212921,
+  "spatial_blocks": 215,
+  "price_p99_usd": 1215.9300000000003,
+  "price_max_usd": 50000.0,
+  "quality": {
+    "source_manifest": {
+      "schema_version": 1,
+      "sources": {
+        "airbnb": {
+          "filename": "listings.csv.gz",
+          "url": "https://data.insideairbnb.com/united-states/ny/new-york-city/2025-10-01/data/listings.csv.gz",
+          "period": "2025-10-01 Inside Airbnb archive; last_scraped dates also reported",
+          "provenance": "User-supplied original Inside Airbnb detailed NYC extract",
+          "sha256": "a50efc7b11ef0a0786e38787ae2d4f47af1009943a1049503b676cc4b770fcbd",
+          "bytes": 17748368,
+          "registered_at_utc": "2026-10-26T05:12:47.893834+00:00",
+          "downloaded_by_pipeline": false
+        },
+        "subway": {
+          "filename": "subway.csv",
+          "url": "https://data.ny.gov/resource/39hk-dx4f.csv?$limit=5000",
+          "period": "Original user-supplied station extract; extract date unknown",
+          "provenance": "User-supplied original MTA Subway Stations CSV",
+          "sha256": "4f10d7730b4dfe1737cb54426adccb8396346eceec2be9a22a58c9e0ccfdbc57",
+          "bytes": 67853,
+          "registered_at_utc": "2026-10-26T05:12:47.895044+00:00",
+          "downloaded_by_pipeline": false
+        },
+        "income": {
+          "filename": "acs_income_2023.dat",
+          "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+          "period": "2019-2023 ACS 5-year estimates; tract median household income",
+          "provenance": "Census Bureau official table-based summary file B19013",
+          "sha256": "c9007017b7bb29ba758c77612ec9a4a0b897a4ed931d527754629866f580a110",
+          "bytes": 17884943,
+          "registered_at_utc": "2026-10-26T05:12:47.907568+00:00",
+          "downloaded_by_pipeline": false
+        },
+        "population": {
+          "filename": "acs_population_2023.dat",
+          "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b01003.dat",
+          "period": "2019-2023 ACS 5-year estimates; tract population",
+          "provenance": "Census Bureau official table-based summary file B01003",
+          "sha256": "24ae3f523b4c54332ce0a71ba534569685a8a729056f975915d860d1eb943565",
+          "bytes": 18311997,
+          "registered_at_utc": "2026-10-26T05:12:47.920984+00:00",
+          "downloaded_by_pipeline": false
+        },
+        "tracts": {
+          "filename": "tl_2023_36_tract.zip",
+          "url": "https://www2.census.gov/geo/tiger/TIGER2023/TRACT/tl_2023_36_tract.zip",
+          "period": "2023 TIGER/Line census tract boundaries, New York State",
+          "provenance": "Census Bureau official TIGER/Line shapefile",
+          "sha256": "010dfd8893c8a2a6482c7a0420b0113a8c0a0029137d0f904635014f39ffb918",
+          "bytes": 8854208,
+          "registered_at_utc": "2026-10-26T05:12:47.928506+00:00",
+          "downloaded_by_pipeline": false
+        }
+      }
+    },
+    "raw_listings": 36111,
+    "price_definition": "Advertised nightly listing price, USD; not booked revenue or property sale value",
+    "distance_definition": "Straight-line metres in EPSG:32618 to unique MTA subway station locations; SIR excluded",
+    "price_tail_filter": "None: retain every finite positive price",
+    "listing_scrape_date_min": "2025-10-01",
+    "listing_scrape_date_max": "2025-10-02",
+    "missing_or_invalid_price": 14783,
+    "nonpositive_price": 0,
+    "duplicate_listing_ids_removed": 0,
+    "positive_price_unique_listings": 21328,
+    "valid_coordinate_listings": 21328,
+    "nyc_tracts": 2327,
+    "tracts_missing_income": 135,
+    "unique_boundary_matches": 0,
+    "ambiguous_boundary_listings": 0,
+    "unmatched_nyc_tract_listings": 2,
+    "station_rows_raw": 496,
+    "sir_rows_excluded": 21,
+    "station_ids_unique_after_sir_exclusion": 472,
+    "unique_station_locations": 472,
+    "analysis_listings": 21326,
+    "listings_missing_income": 317,
+    "missing_income_pct": 1.4864484666604145,
+    "missing_pct": {
+      "accommodates": 0.0,
+      "bedrooms": 0.4032636218700178,
+      "beds": 0.19225358717058988,
+      "bathrooms": 0.03282378317546657,
+      "minimum_nights": 0.0,
+      "number_of_reviews": 0.0,
+      "reviews_per_month": 29.93529025602551,
+      "review_scores_rating": 29.93529025602551,
+      "calculated_host_listings_count": 0.0,
+      "availability_365": 0.0,
+      "median_household_income": 1.4864484666604145
+    },
+    "notes": [
+      "Income/population describe census tracts and do not measure individual hosts or guests.",
+      "ACS 2019-2023 estimates precede the listing snapshot; income margins of error are retained.",
+      "Station extract date is unknown. Straight-line access is not walking distance or travel time.",
+      "Staten Island listings can be far from the subway because SIR stations are excluded.",
+      "Listings without prices are excluded; observed prices may not represent all NYC listings.",
+      "Coordinates are approximate, so tract membership and station distance have measurement error."
+    ],
+    "priced_spatial_listings": 21326,
+    "primary_listing_count": 20308,
+    "hospitality_excluded": 1018,
+    "primary_scope": "Exclude Hotel room or property_type containing hotel, hostel, resort; no price-tail trimming",
+    "primary_median_minimum_nights": 30.0
+  },
+  "models": [
+    {
+      "validation": "Random 5-fold",
+      "model": "Global median",
+      "n": 20308,
+      "mae_usd": 141.36232026787474,
+      "rmse_usd": 592.8280131547533,
+      "median_ae_usd": 75.0,
+      "r2_log": -0.0010702777642057626
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Room + borough median",
+      "n": 20308,
+      "mae_usd": 119.04914389158522,
+      "rmse_usd": 581.4990603319418,
+      "median_ae_usd": 50.49952198809069,
+      "r2_log": 0.3796927414106268
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Distance + income",
+      "n": 20308,
+      "mae_usd": 130.56506657206089,
+      "rmse_usd": 584.9413957493281,
+      "median_ae_usd": 66.70007873585902,
+      "r2_log": 0.17444291208158236
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Listing controls (ridge)",
+      "n": 20308,
+      "mae_usd": 103.95121118662621,
+      "rmse_usd": 562.5642570276216,
+      "median_ae_usd": 44.62588826843739,
+      "r2_log": 0.5572711083806374
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Full without transit",
+      "n": 20308,
+      "mae_usd": 75.37694185482282,
+      "rmse_usd": 539.9814958888472,
+      "median_ae_usd": 29.615431022897297,
+      "r2_log": 0.7639299894245857
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Full with transit",
+      "n": 20308,
+      "mae_usd": 75.17586496062721,
+      "rmse_usd": 540.0563199157813,
+      "median_ae_usd": 29.292449137154804,
+      "r2_log": 0.7645634199527027
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Global median",
+      "n": 20308,
+      "mae_usd": 141.5539688792594,
+      "rmse_usd": 593.1126351637937,
+      "median_ae_usd": 75.0,
+      "r2_log": -0.005702061659273339
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Room + borough median",
+      "n": 20308,
+      "mae_usd": 119.65084401196879,
+      "rmse_usd": 581.6408435555412,
+      "median_ae_usd": 51.0,
+      "r2_log": 0.37154662625438917
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Distance + income",
+      "n": 20308,
+      "mae_usd": 130.86629523091105,
+      "rmse_usd": 585.0768878398947,
+      "median_ae_usd": 66.73396840189184,
+      "r2_log": 0.16957909587599673
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Listing controls (ridge)",
+      "n": 20308,
+      "mae_usd": 104.89715527926775,
+      "rmse_usd": 563.9910395905118,
+      "median_ae_usd": 45.40508851299396,
+      "r2_log": 0.5484049827970177
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Full without transit",
+      "n": 20308,
+      "mae_usd": 79.2171460760621,
+      "rmse_usd": 545.2324372072543,
+      "median_ae_usd": 31.316997808716877,
+      "r2_log": 0.7424883765688677
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Full with transit",
+      "n": 20308,
+      "mae_usd": 79.33796329188006,
+      "rmse_usd": 545.5549615356151,
+      "median_ae_usd": 31.721593041581244,
+      "r2_log": 0.7432982496667144
+    }
+  ],
+  "associations": [
+    {
+      "specification": "Distance + income",
+      "n": 14001,
+      "tract_clusters": 1757,
+      "coefficient_per_km": -0.06236686689542423,
+      "percent_per_500m": -3.07022448614388,
+      "ci_lower_pct": -3.6608559166151653,
+      "ci_upper_pct": -2.475972040663798,
+      "p_value": 5.800033130912594e-23,
+      "r2_in_sample_log": 0.10749995619514907
+    },
+    {
+      "specification": "Room, size + borough controls",
+      "n": 14001,
+      "tract_clusters": 1757,
+      "coefficient_per_km": -0.031421560696793714,
+      "percent_per_500m": -1.558800981996255,
+      "ci_lower_pct": -2.090428401464721,
+      "ci_upper_pct": -1.024286942675242,
+      "p_value": 1.4824872539900335e-08,
+      "r2_in_sample_log": 0.5752151206353482
+    },
+    {
+      "specification": "Neighborhood fixed effects",
+      "n": 14001,
+      "tract_clusters": 1757,
+      "coefficient_per_km": 0.01590963779634611,
+      "percent_per_500m": 0.7986542532822,
+      "ci_lower_pct": -0.8676439482744146,
+      "ci_upper_pct": 2.492960965955629,
+      "p_value": 0.3494136821506286,
+      "r2_in_sample_log": 0.6212046875142484
+    },
+    {
+      "specification": "Within 3 km of subway",
+      "n": 13290,
+      "tract_clusters": 1577,
+      "coefficient_per_km": 0.02350683596500502,
+      "percent_per_500m": 1.1822760805066541,
+      "ci_lower_pct": -1.0564984481145125,
+      "ci_upper_pct": 3.4717069060183716,
+      "p_value": 0.30299746517904635,
+      "r2_in_sample_log": 0.6223851967168498
+    },
+    {
+      "specification": "Central 98% price sensitivity",
+      "n": 13746,
+      "tract_clusters": 1753,
+      "coefficient_per_km": 0.018546726672013,
+      "percent_per_500m": 0.9316494189385962,
+      "ci_lower_pct": -0.6912576190695869,
+      "ci_upper_pct": 2.5810780621032885,
+      "p_value": 0.2620039095624968,
+      "r2_in_sample_log": 0.6260345465444085
+    }
+  ],
+  "seed": 42,
+  "full_catalog": {
+    "listing_count": 21326,
+    "hotel_room_median_usd": 40000.0,
+    "above_5000_count": 234,
+    "above_5000_sum_price_share_pct": 66.77182809252139,
+    "note": "Sum of asking prices is a data-quality diagnostic, not revenue. Suspicious high asks are not corrected. Full catalog is a separate sensitivity population."
+  },
+  "full_catalog_models": [
+    {
+      "validation": "Random 5-fold",
+      "model": "Global median",
+      "n": 21326,
+      "mae_usd": 590.0291662759073,
+      "rmse_usd": 4511.41965675202,
+      "median_ae_usd": 80.00000000000003,
+      "r2_log": -0.009281611184521754
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Room + borough median",
+      "n": 21326,
+      "mae_usd": 311.1856440522439,
+      "rmse_usd": 2556.273463776141,
+      "median_ae_usd": 57.00000000000003,
+      "r2_log": 0.4530565875649655
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Distance + income",
+      "n": 21326,
+      "mae_usd": 577.2584967338474,
+      "rmse_usd": 4495.923292796389,
+      "median_ae_usd": 73.6643994759151,
+      "r2_log": 0.16875903745557852
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Listing controls (ridge)",
+      "n": 21326,
+      "mae_usd": 435.8214797160594,
+      "rmse_usd": 3416.8326192638415,
+      "median_ae_usd": 47.647991618669295,
+      "r2_log": 0.6609331618397636
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Full without transit",
+      "n": 21326,
+      "mae_usd": 297.6208122033508,
+      "rmse_usd": 2538.7190315275348,
+      "median_ae_usd": 31.84675900071951,
+      "r2_log": 0.8179348283839964
+    },
+    {
+      "validation": "Random 5-fold",
+      "model": "Full with transit",
+      "n": 21326,
+      "mae_usd": 294.5609267817439,
+      "rmse_usd": 2510.249748200231,
+      "median_ae_usd": 31.797247583903435,
+      "r2_log": 0.8180115930337127
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Global median",
+      "n": 21326,
+      "mae_usd": 590.4254900121917,
+      "rmse_usd": 4511.361467905348,
+      "median_ae_usd": 80.99999999999997,
+      "r2_log": -0.013253082518466464
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Room + borough median",
+      "n": 21326,
+      "mae_usd": 345.5015657051401,
+      "rmse_usd": 2828.4795526385374,
+      "median_ae_usd": 57.99999999999998,
+      "r2_log": 0.43133529817136207
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Distance + income",
+      "n": 21326,
+      "mae_usd": 577.8350932094086,
+      "rmse_usd": 4496.326842213678,
+      "median_ae_usd": 74.35115312838465,
+      "r2_log": 0.16078405923754147
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Listing controls (ridge)",
+      "n": 21326,
+      "mae_usd": 441.90211299819373,
+      "rmse_usd": 3467.110273699221,
+      "median_ae_usd": 48.59771686927995,
+      "r2_log": 0.6524235055639427
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Full without transit",
+      "n": 21326,
+      "mae_usd": 343.8511987706328,
+      "rmse_usd": 2898.172404591756,
+      "median_ae_usd": 33.50944713005802,
+      "r2_log": 0.7916613227670912
+    },
+    {
+      "validation": "Spatial 2 km 5-fold",
+      "model": "Full with transit",
+      "n": 21326,
+      "mae_usd": 349.8805128250415,
+      "rmse_usd": 2890.214580709301,
+      "median_ae_usd": 33.6228506553191,
+      "r2_log": 0.791895372743363
+    }
+  ]
+}
