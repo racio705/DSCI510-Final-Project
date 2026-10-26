@@ -1,0 +1,19 @@
+{
+  "protocol_commit": "b75e5a69daf625312ca2a4c582d3ddbf36657447",
+  "sources": {
+    "2026-06-14": {
+      "url": "https://data.insideairbnb.com/united-states/ny/new-york-city/2026-06-14/data/listings.csv.gz",
+      "sha256": "10eb56b21ec71a838b30ef47b836f3d375269baeed5ff9e5c35ff3c6a98d3ca7",
+      "file": "data/raw/temporal/listings_2026-06-14.csv.gz",
+      "bytes": 15694632,
+      "sha256_verified": true
+    },
+    "2026-09-14": {
+      "url": "https://data.insideairbnb.com/united-states/ny/new-york-city/2026-09-14/data/listings.csv.gz",
+      "sha256": "a67bf574e47aa6eba5b2262987dbd9684f206d5cd0183470056f9c936b8e7ae1",
+      "file": "data/raw/temporal/listings_2026-09-14.csv.gz",
+      "bytes": 16005851,
+      "sha256_verified": true
+    }
+  }
+}

@@ -1,39 +1,40 @@
-# 新增可用结论
+# 简历与面试说明：最终验证版本
 
-先读 [具体研究结论与使用边界](USABLE_FINDINGS_ZH.md)。新增房东账号分组验证 MAE 为 $90.49，较对应基线低 26.4%；下文原有 33.8% 指空间分组验证，两个评估回答不同问题。
+建议项目名称：**纽约 Airbnb 长住报价基准模型与时间外验证**。
 
-# 项目定位与简历表述
+主成果是按预先锁定规则完成的后续时间快照验证，以及可运行的 JSON/CSV 报价比较工具。先读 [时间外验证结论](VERIFIED_CONCLUSIONS_ZH.md)；原 2025 年探索结果作为分析附录保留。
 
-项目名称建议：**纽约 Airbnb 挂牌价格建模与地铁可达性分析**。
+## 中文简历版本
 
-它适合展示 Python 数据清洗、GeoPandas 空间连接、地理特征工程、机器学习评估和结果解释。分析对象是挂牌价，不是房屋售价、成交价或营收。原课程项目在 2025 年完成；这次完善属于后续扩展，简历日期应按你的真实经历填写。
+- 整合 NYC Airbnb 三期快照共 **96,288 条房源快照记录**及 MTA、Census 空间数据，构建带版本校验、空间连接、房东账号分组和数据质量审计的长住挂牌价分析流程。
+- 基于 17,100 条训练期长住房源构建按房东均衡加权的梯度提升模型；在 **311 个历史快照未出现过的账号**上进行锁定时间外检验，MAE **$96.03/晚**，较两种分层可比房源基准降低 **13.6%–16.3%**；名义 80% 区间实测覆盖率 **82.6%**。
+- 在两期后续快照中复现固定住宿类别的跨区报价差异，完成最大账号剔除敏感性分析，并交付支持 JSON/CSV 输入、地理特征推导、参考价区间和可比样本支持度的本地工具。
 
-## 可直接使用的中文项目经历
-
-- 整合 Inside Airbnb、MTA 地铁站及 Census ACS/TIGER 数据，构建带 SHA256 校验、离线缓存和数据质量审计的地理分析流程；从 36,111 条房源记录形成 20,308 条非酒店住宿样本，关联 472 个地铁站点及 NYC 普查区社会经济特征。
-- 比较 6 类价格基线与机器学习候选模型，采用 2 公里空间分组五折交叉验证；表现最好的候选模型 MAE 为 **$79.22/晚**，较“房型＋行政区中位数”基线降低 **33.8%**，log1p-price R² 为 **0.742**。
-- 通过社区固定效应回归、普查区聚类标准误和特征消融，发现地铁距离在控制社区及房源特征后缺乏稳定的独立价格关联，并交付可复现 Notebook、交互地图与数据来源记录。
-
-如果版面只能放两条，优先第一、第二条；面试时补充第三条，不要把统计关联写成因果溢价。
+96,288 是三期原始记录之和，存在跨期重复房源，不能写成 96,288 套独立房屋。17,100 是原 2025 快照中非酒店且最低入住至少 30 晚的训练样本。311 是严格主要测试账号数；不能用当期全部 14,152 条合格记录冒充未见账号测试量。
 
 ## English resume version
 
-- Built a reproducible geospatial pipeline combining Inside Airbnb, MTA and Census ACS/TIGER data, with source hashes, offline caching and quality checks; prepared 20,308 non-hotel listings from 36,111 records and engineered access features for 472 subway station locations.
-- Compared six candidate price models using 5-fold cross-validation grouped by 2-km spatial cells; the best evaluated candidate achieved **$79.22 nightly-price MAE**, **33.8% below** a room-type/borough median baseline, with **0.742 log1p-price R²**.
-- Used neighborhood fixed effects, tract-clustered uncertainty estimates and transit-feature ablation to distinguish observed location-price associations from incremental predictive signal; delivered an executed notebook, interactive map and traceable source documentation.
+- Built a versioned geospatial pipeline combining 96,288 NYC Airbnb listing-snapshot records with MTA and Census data, including source checks, tract joins, host-account grouping and quality audits.
+- Trained a host-balanced gradient-boosted asking-price model on 17,100 long-stay listings and evaluated a locked temporal holdout of 311 previously unobserved accounts; achieved $96.03 nightly MAE, 13.6%–16.3% below two hierarchical comparable-price baselines, with 82.6% empirical coverage for nominal 80% intervals.
+- Replicated a fixed accommodation-category price benchmark in two later snapshots, tested sensitivity to dominant host accounts, and delivered a local JSON/CSV comparison tool with geographic enrichment, prediction intervals and comparable-sample support.
 
-## 面试需要讲清楚的内容
+## 面试中最值得讲的两个结论
 
-**为什么排除酒店？** 原始目录中存在大量每晚 4 万、5 万美元的酒店挂牌价，部分酒店又被归为 Private room。按住宿产品类型划分研究范围，比为提高分数任意截断价格更有依据。酒店/旅舍/度假村排除 1,018 条，其余正价格全部保留；完整目录的模型结果另行公开。主样本最少入住天数中位数为 30，不能概括为纯短租市场。
+**结论一：固定住宿类别的区域报价差异跨时间重复出现。** 条件为一卧整套、标注可住恰好 2 人、最低入住恰好 30 晚、距地铁不超过 500 米。Brooklyn 在 2026 年 6 月与 9 月的挂牌价中位数分别比 Manhattan 低 35.9% 和 31.9%；移除每区最大账号后仍分别低 22.3% 和 18.4%。这是分层报价基准，不是同一房屋换区的因果效果。
 
-**为什么不能只报随机划分？** 相近位置可能共享环境和价格特征。主结果让同一个 2 公里网格完全落在同一折；网格相邻且房东可能跨折，因此这仍是内部地理迁移测试，不是未来价格或完全独立新区域验证。
+**结论二：模型的优势在时间外且未见账号的测试中得到支持。** 训练只用 2025 年 10 月，2026 年 6 月只校准区间，9 月不调参。测试账号与房源 ID 在前两份全部原始记录中均不存在，每账号按与价格无关的哈希选一条。主模型误差降幅的配对重抽样区间均排除零；预测区间宽度和所有失败子组同时公开。
 
-**33.8% 是怎么算的？** `(119.650844 - 79.217146) / 119.650844`。这比较的是相同主样本、相同空间折中的平均绝对误差，不是营收提升。中位绝对误差为 $31.32，而 RMSE 为 $545.23，说明保留的极端值仍有很大误差。
+## 需要解释清楚的细节
 
-**地铁到底有没有影响？** 在 14,001 条完整记录上，加入社区固定效应后，每远离地铁 500 米的估计关联为 +0.80%，95% 区间为 [-0.87%, 2.49%]。区间跨过零，且加入地铁特征没有改善空间验证 MAE。可以说当前数据和方法没有提供稳定的独立溢价证据，不能说证明地铁完全无影响。
+- **冻结发生在什么时候？** 协议 commit `b75e5a69daf625312ca2a4c582d3ddbf36657447` 早于两份未来快照的下载。模型、比较层级、账号抽样、通过标准与分析方向都先写定；不是注册实验。
+- **对照有多强？** 两个基线按社区、房型、容量、卧室、入住门槛等层级寻找训练期可比组，组内不足 20 条或 5 个账号就按固定顺序回退。一个使用房源中位数，另一个使用账号内中位数的中位数。
+- **区间说明什么？** 311 个主要测试账号中覆盖 257 个。它是后续快照上的实测覆盖，不保证每个地区、房型或未来时期都达到 80%。整体区间宽度中位数约 $169，适合初筛参考。
+- **有哪些失效范围？** Queens 独立房间的误差百分比中位数为 32.9%，超过整体预设的 30% 精度目标；若干地区/房型样本不足 30。只说整体达到预设离线标准，不说所有房源都可靠。
+- **“地铁没作用”成立吗？** 没有得到支持。加入地铁后的预测等效区间没有完全落在预设 ±2% 范围，不能把不显著当成证明没有作用，更不能声称因果效果。
+- **有没有商业收益？** 没有真实订单或运营实验，不能写营收提升、提高入住率或自动定价收益。实际交付是经过离线检验的挂牌价比较工具。
 
-**还有什么没做？** 尚未部署成定价服务，也没有未来时间快照测试、房东与空间共同隔离的验证、步行路网可达性或真实订单营收。保留这些边界，面试可信度会更高。
+## 运行与示例
 
-## 你需要理解并能修改的代码
+先运行 `python src/validate_temporal.py`，再运行 `python src/quote_benchmark.py --input examples/quote_request.json`。该输入是明确标注的假设案例，输出约 $144/晚、名义区间约 $83–$249 和可比中位数 $153，不能当作实际在售/可订房源。
 
-依次读 `scope.py` 的样本定义、`data.py` 的 Census 缺失值/投影距离/空间连接、`modeling.py` 的同折基线比较与固定效应回归，最后检查 Notebook 的结果。简历中可以使用本次已验证结果，但应在能解释和复现这些步骤后提交。不要把 2026 年补充的方法描述成 2025 年已经做过。
+原课程工作在 2025 年完成，后续完善与时间外验证在 2026 年完成。简历日期应按真实经历填写。旧版空间 CV 的 33.8% 改善与当前时间外 13.6%–16.3% 改善使用不同样本、模型加权和基线，不应混写或择高宣传。

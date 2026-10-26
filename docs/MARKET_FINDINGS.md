@@ -1,3 +1,5 @@
+> The final locked temporal validation and runnable quote tool are documented in [Temporal validation](TEMPORAL_VALIDATION.md). This page preserves the earlier single-snapshot analysis.
+
 # Usable market findings
 
 These are exploratory findings from the **October 2025, positive-priced non-hotel sample**, not current booking offers or causal estimates. The source has missing prices, category uncertainty and approximate locations. The analysis separates advertised minimum stay, accommodation product, declared capacity and subway proximity before interpreting borough medians.

@@ -1,0 +1,51 @@
+{
+  "name": "NYC long-stay asking-price screening benchmark",
+  "protocol_commit": "b75e5a69daf625312ca2a4c582d3ddbf36657447",
+  "primary_model": "Host-balanced HGB without transit",
+  "decision": "met_predeclared_offline_criteria",
+  "population": "Positive-priced NYC non-hotel listings with advertised minimum >=30 nights",
+  "intended_use": "Historical asking-price comparison and screening with contemporaneous property/location attributes",
+  "training_period": "2025-10-01 archive",
+  "calibration_period": "2026-06-14 archive",
+  "final_test_period": "2026-09-14 archive",
+  "training_listings": 17100,
+  "training_hosts": 8339,
+  "calibration_hosts": 1159,
+  "strict_final_hosts": 311,
+  "test_unit": "One price-independent hash-selected listing per account unseen in all raw prior snapshots",
+  "features": [
+    "room/property type",
+    "capacity/bedroom/bathroom/beds",
+    "minimum stay",
+    "review/rating",
+    "host listing count",
+    "coordinates",
+    "lagged Census context"
+  ],
+  "point_target": "log1p advertised nightly USD, back-transformed with expm1",
+  "weighting": "Inverse eligible training listing count per host, normalized to mean one",
+  "interval": "Nominal80% finite-rank absolute log-residual calibration on June unseen accounts; empirical temporal coverage only",
+  "gates": {
+    "calibration_and_test_at_least_300_hosts": true,
+    "beats_listing_comparables_by_10pct_with_positive_interval": true,
+    "beats_host_comparables_by_10pct_with_positive_interval": true,
+    "median_ape_at_most_30pct": true,
+    "coverage_80_at_least_75pct": true,
+    "median_relative_interval_width_at_most_1_5": true
+  },
+  "subgroup_limit": "Queens private-room medianAPE32.9%; several groups n<30; see all subgroup tables",
+  "not_established": [
+    "causal price effects",
+    "future transaction/booking prices",
+    "revenue or profit gains",
+    "automatic price-posting benefits",
+    "predictive transit equivalence within\u00b12%"
+  ],
+  "artifacts": {
+    "local_model": "data/models/temporal_quote_benchmark.joblib",
+    "metrics": "results/temporal_validation.json",
+    "protocol": "docs/TEMPORAL_EVALUATION_PROTOCOL.md",
+    "source_hashes": "results/temporal_source_manifest.json",
+    "prediction_freeze": "results/temporal_prediction_freeze.json"
+  }
+}

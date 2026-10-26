@@ -1,3 +1,5 @@
+> The final locked temporal validation and runnable quote tool are documented in [Temporal validation](TEMPORAL_VALIDATION.md). This page preserves the earlier single-snapshot analysis.
+
 # Executed findings
 
 For the new product/stay benchmarks, host-account composition analysis and host-group validation, see [Market findings](MARKET_FINDINGS.md).
